@@ -16,6 +16,7 @@ gem 'shotgun', '~>0.9.1'
 
 gem 'pry'
 gem 'instagram'
+gem 'dotenv'
 
 group :test do
   gem 'shoulda-matchers'
