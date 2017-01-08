@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # PostgreSQL driver
-gem 'pg'
+gem 'pg', '~> 0.19.0'
 
 # Sinatra driver
 gem 'sinatra', '~> 1.0'
@@ -13,6 +13,9 @@ gem 'activerecord', '~>4.2.0'
 gem 'rake'
 
 gem 'shotgun', '~>0.9.1'
+
+gem 'pry'
+gem 'instagram'
 
 group :test do
   gem 'shoulda-matchers'
